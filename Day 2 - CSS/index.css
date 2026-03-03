@@ -1,0 +1,93 @@
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 2, 2);
+    line-height:normal;
+}
+/* Template Reset bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background halaman */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    /* Background gambar */
+    background-image: url("images/pattern.jpg");
+
+    /* Supaya background menutup penuh */
+    background-size: cover;
+
+    /* repeat */
+    background-repeat: repeat;
+
+    /* Posisi tengah */
+    background-position: center;
+
+    /* Supaya tidak ikut scroll (opsional) */
+    background-attachment: fixed;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5a67ff;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+/* ================= CONTENT ================= */
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.post {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.post h3 {
+    color: #5a67ff;
+    margin-bottom: 10px;
+}
+
+.post p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
